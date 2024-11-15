@@ -1,0 +1,21 @@
+{
+  "name": "refactoringpractices",
+  "version": "1.0.0",
+  "description": "Refactoring Practices are samples that I combine from Refactoring: Improving the Design of Existing Code book (Martin Fowler).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "statementCalculator": "nodemon ./src/1.StatementCalculator/index.js",
+    "prettier": "prettier --check ./src",
+    "prettier:fix": "prettier --write ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
